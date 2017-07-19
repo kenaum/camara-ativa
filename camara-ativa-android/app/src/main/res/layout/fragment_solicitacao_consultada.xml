@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    style="@style/screensBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView style="@style/ScrollViewTelasInternas">
+        <LinearLayout
+            android:id="@+id/lnSolicitacaoForm"
+            style="@style/LinearLayoutSolicitacaoScreenStyle">
+            <LinearLayout
+                style="@style/LinearLayoutTituloSolicitacaoScreenStyle">
+                <TextView
+                    android:id="@+id/lbNomeSolicitacao"
+                    android:text="Teste"
+                    android:textSize="20sp"
+                    style="@style/TituloSolicitacaoScreenStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LinearLayoutSolicitacaoScreenLineFotoEndereco">
+                <LinearLayout
+                    style="@style/LinearLayoutSolicitacaoScreenFotoIcone">
+                    <ImageView
+                        android:id="@+id/imgTirarFoto"
+                        android:src="@drawable/btn_tirar_foto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" /><!-- style="@style/ImageViewSolicitacaoScreenFotoIcone" -->
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/LinearLayoutSolicitacaoScreenEnderecoTexto">
+                    <EditText
+                        android:id="@+id/txtEnderecoSolicitacao"
+                        style="@style/EditTextSolicitacaoScreenEnderecoTexto"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LinearLayoutTituloSolicitacaoScreenStyle">
+                <Button
+                    android:id="@+id/btnLocalizarEndereco"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#e95a22"
+                    android:textColor="#FFFFFF"
+                    android:text="Localizar" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LinearLayoutTituloSolicitacaoScreenStyle">
+                <TextView
+                    android:text=""
+                    style="@style/LabelSolicitacaoScreen" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LinearLayoutSolicitacaoScreenDescricaoTexto">
+                <EditText
+                    android:id="@+id/txtDescricao"
+                    style="@style/EditTextSolicitacaoScreenDescricaoTexto"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LinearLayoutSolicitacaoScreenLblVereadores">
+                <TextView
+                    android:text="@string/lbOpcaoVereador"
+                    style="@style/LabelSolicitacaoScreen" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LinearLayoutSolicitacaoScreenSpnVereadores">
+                <Spinner
+                    android:id="@+id/spnVereadores"
+                    style="@style/SpinnerStyle"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LinearLayoutTituloSolicitacaoScreenStyle"
+                android:paddingBottom="10dip">
+                <View
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+                <Button
+                    android:id="@+id/btnEnviarSolicitacao"
+                    android:text="Enviar"
+                    android:background="#e95a22"
+                    android:textColor="#FFFFFF"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    style="@style/screensBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        style="@style/ScrollViewTelasInternas">
+        <LinearLayout
+            android:id="@+id/lnSolicitacaoForm"
+            style="@style/LinearLayoutSolicitacaoScreenStyle">
+            <LinearLayout
+                style="@style/LinearLayoutSolicitacaoScreenLineFotoEndereco">
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+                    <ImageView
+                        android:id="@+id/imgVereador"
+                        android:layout_gravity="center"
+                        android:src="@drawable/img_mario_cesar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5">
+                    <TextView
+                        android:id="@+id/lbNomeVereador"
+                        android:textColor="#024da1"
+                        android:textStyle="bold"
+                        android:padding="10dip"
+                        android:textSize="20sp"
+                        android:text="Mario Cesar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:id="@+id/lineFoneVereador"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="5dip">
+                        <ImageView
+                            android:layout_weight="1"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/img_telefone"/>
+                        <TextView
+                            android:id="@+id/txtTelVereador"
+                            android:layout_gravity="center"
+                            android:textSize="12sp"
+                            android:text="92731220"
+                            android:textColor="#000"
+                            android:autoLink="phone"
+                            android:layout_weight="6"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+                    <LinearLayout android:id="@+id/lineEmailVereador"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="5dip">
+                        <ImageView
+                            android:layout_weight="1"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/img_email"/>
+                        <TextView
+                            android:id="@+id/txtEmailVereador"
+                            android:layout_gravity="center"
+                            android:textSize="12sp"
+                            android:autoLink="email"
+                            android:textColor="#000"
+                            android:layout_weight="6"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lineSiteVereador"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="5dip">
+                        <ImageView
+                            android:layout_weight="1"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/img_website"/>
+                        <TextView
+                            android:id="@+id/txtWebsiteVereador"
+                            android:layout_gravity="center"
+                            android:textSize="12sp"
+                            android:autoLink="web"
+                            android:textColor="#000"
+                            android:layout_weight="6"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnMostrarBiografia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#e95a22"
+                android:textColor="#FFFFFF"
+                android:text="Ver Biografia"/>
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip">
+
+                <LinearLayout
+                    style="@style/LinearLayoutSolicitacaoScreenDescricaoTexto"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip">
+                    <EditText
+                        android:id="@+id/txtDescricao"
+                        style="@style/EditTextSolicitacaoScreenDescricaoTexto"/>
+                </LinearLayout>
+
+                <TableRow android:layout_marginBottom="10dip" android:layout_marginTop="10dip">
+                    <View android:layout_width="0dip" android:layout_height="wrap_content" android:layout_weight="1" />
+                    <Button
+                        android:id="@+id/btnSalvarForm"
+                        android:text="Enviar"
+                        android:background="#e95a22"
+                        android:textColor="#FFFFFF"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

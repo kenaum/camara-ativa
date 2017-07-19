@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_shape"
+    android:layout_width="300dip"
+    android:layout_height="300dip">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/LineTituloStyle">
+        <TextView
+            android:id="@+id/lbTituloTela"
+            style="@style/ScreenTituloStyle"
+            android:text="Tirar foto" />
+
+    </LinearLayout>
+
+    <TextView
+        android:textSize="18sp"
+        android:textColor="#0F4AB0"
+        android:paddingTop="10dip"
+        android:text="Escolha se deseja fotografar ou escolher uma foto da galeria."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioGroup
+                android:id="@+id/radGroupOpcaoFoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/radioTakePhoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:checked="true"
+                    android:textSize="18sp"
+                    android:text="Fotografar"/>
+                <RadioButton
+                    android:id="@+id/radioChoosePhoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:text="Escolher uma foto na minha galeria de imagens"/>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:layout_gravity="center"
+            android:background="#e95a22"
+            android:id="@+id/btnDialogOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="OK"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,474 @@
+<resources>
+    <string name="app_name">Câmara Ativa</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="lbSolicitacoes">Solicitações</string>
+    <string name="lbNoticiasCamara">Notícias da Câmara</string>
+    <string name="lbVereadores">Fale Com Seu Vereador</string>
+
+    <string name="find_noticia_tag">findNoticia</string>
+
+    <string name="facebook_app_id">607448965992506</string>
+
+    <!-- Mail data user -->
+    <string name="user">camaraativacg@gmail.com</string>
+    <string name="password">123456789#</string>
+
+    <!--
+    <string name="user">ortale22@gmail.com</string>
+    <string name="password">0504290714</string>
+    -->
+
+    <!-- Login Activity -->
+    <string name="lblConectarFacebook">Conecte-se com uma conta do facebook</string>
+    <string name="lblCadastrar">Novo na Câmara Ativa? Crie uma conta</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+
+    <string name="action_sign_in_register"><b>Sign in</b> or register</string>
+    <string name="action_sign_in_short">Conectar</string>
+
+    <string name="action_forgot_password">Recuperar minha senha</string>
+
+    <string name="login_progress_signing_in">Efetuando login&#8230;</string>
+
+    <string name="error_invalid_email">O email digitado é inválido</string>
+    <string name="error_invalid_password">A senha digitada é muito curta</string>
+    <string name="error_incorrect_password">Senha incorreta</string>
+    <string name="error_field_required">Campo obrigatório</string>
+
+    <string name="errorUsuarioInvalido">Login inválido</string>
+    <string name="errorSenhaInvalida">Senha inválida</string>
+
+    <!-- Main Activity -->
+    <string name="lbBuracoNaRua">Tapa buraco</string>
+    <string name="descricaoBuracoNaRua">Reparo de buraco na pista/rua, na calçada ou na ciclovia</string>
+
+    <string name="lbSemaforoComDefeito">Semáforo</string>
+    <string name="descricaoSemaforoComDefeito">Colocação ou reparo de semáforo com mal funcionamento</string>
+
+    <string name="lbSinalizacaoDeTransito">Sinalização de trânsito</string>
+    <string name="descricaoSinalizacaoDeTransito">Colocação ou reparo de placas e pinturas</string>
+
+    <string name="lbCascalhamentoPatrolamento">Cascalhamento e patrolamento</string>
+    <string name="descricaoCascalhamentoPatrolamento">Restauração de ruas e avenidas sem asfalto</string>
+
+    <string name="lbPodaDeArvore">Poda de árvore</string>
+    <string name="descricaoPodaDeArvore">Poda e retirada de árvores em logradouro público</string>
+
+    <string name="lbLimpezaDeBueiro">Limpeza de bueiro</string>
+    <string name="descricaoLimpezaDeBueiro">Limpeza de bueiro e galerias de águas pluviais</string>
+
+    <string name="lbLimpezaDeTerreno">Limpeza de terreno</string>
+    <string name="descricaoLimpezaDeTerreno">Remoção de lixos e entulhos</string>
+
+    <string name="lbIluminacaoPublica">Iluminação pública</string>
+    <string name="descricaoIluminacaoPublica">Colocação ou reparo de iluminação pública</string>
+
+    <string name="lbDengue">Vistoria em foco de dengue</string>
+    <string name="descricaoDengue">Vistoria em possíveis focos de dengue</string>
+
+    <string name="lbQuebraMola">Quebra-mola</string>
+    <string name="descricaoQuebraMola">Colocação ou reparo em ruas e avenidas com alto fluxo de pedestres</string>
+
+    <string name="lbVazamentoDeAgua">Reparo de vazamento de água</string>
+    <string name="descricaoVazamentoDeAgua">Reparo de encanamentos</string>
+
+    <string name="lbAnimalMorto">Retirar animal morto</string>
+    <string name="descricaoAnimalMorto">Recolhimento de animal morto em área pública</string>
+
+    <string name="lbErosao">Restaurar erosão</string>
+    <string name="descricaoErosao">Restauração de ruas e locais danificadas pela chuva</string>
+
+    <string name="lbQualidadeNoAtendimento">Fiscalização da saúde</string>
+    <string name="descricaoQualidadeNoAtendimento">Avalie o atendimento dos postos de saúde e do SAMU</string>
+
+    <!-- Solicitacao Activity -->
+    <string name="btnLocalizar">Localizar</string>
+    <string name="lbDescricao">Descrição</string>
+    <string name="lbOpcaoVereador">Enviar solicitação para qual vereador?</string>
+    <string name="lbMensagemSemGps">O GPS se encontra desativado em seu dispositivo. Deseja ativá-lo para melhor precisão de sua localização?</string>
+    <string name="btnAtivarGps">Ativar GPS</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="lbSelecionarUmVereador">Câmara</string>
+    <string name="lbGPSBuscandoLocalizacao">O GPS está buscando sua localização atual. Por favor tente novamente.</string>
+    <string name="lbEnviandoSolicitacao">Aguarde. Sua solicitação está sendo enviada.</string>
+    <string name="lbCarregandoDados">Aguarde. Carregando dados.</string>
+    <string name="lbAguardeLocalizacao">Buscando sua localização.</string>
+
+    <!-- Fale Com Seu Vereador -->
+    <string name="lbImgVereador">imgVereador</string>
+    <string name="lbNomeVereador">nomeVereador</string>
+    <string name="lbTelefoneVereador">telefoneVereador</string>
+    <string name="lbEmailVereador">emailVereador</string>
+    <string name="lbFacebookVereador">facebookVereador</string>
+    <string name="lbUrlFacebookVereador">urlFacebookVereador</string>
+    <string name="lbTwitterVereador">twitterVereador</string>
+    <string name="lbUrlTwitterVereador">urlTwitterVereador</string>
+    <string name="lbWebsiteVereador">websiteVereador</string>
+
+    <!-- Airton Saraiva -->
+    <string name="lbAirtonSaraiva">Airton Saraiva</string>
+    <string name="lbImgAirtonSaraiva">img_airton_saraiva</string>
+    <string name="lbTelAirtonSaraiva">(67) 3316 1508 / 3316 1509</string>
+    <string name="lbEmailAirtonSaraiva">airtonsaraiva@camara.ms.gov.br</string>
+    <string name="lbFaceAirtonSaraiva">Airton Saraiva</string>
+    <string name="lbUrlFaceAirtonSaraiva">http://www.facebook.com/airton.saraiva</string>
+    <string name="lbTwitterAirtonSaraiva"></string>
+    <string name="lbUrlTwitterAirtonSaraiva"></string>
+    <string name="lbWebsiteAirtonSaraiva"></string>
+
+    <!-- Alceu Bueno -->
+    <string name="lbAlceuBueno">Alceu Bueno</string>
+    <string name="lbImgAlceuBueno">img_alceu_bueno</string>
+    <string name="lbTelAlceuBueno">(67) 3316 1650 / 3316 1651</string>
+    <string name="lbEmailAlceuBueno">vereadoralceubueno@camara.ms.gov.br</string>
+    <string name="lbFaceAlceuBueno">Alceu Bueno</string>
+    <string name="lbUrlFaceAlceuBueno">https://www.facebook.com/alceubueno</string>
+    <string name="lbTwitterAlceuBueno"></string>
+    <string name="lbUrlTwitterAlceuBueno"></string>
+    <string name="lbWebsiteAlceuBueno">http://www.alceubueno.com.br/portal/</string>
+
+    <!-- Ayrton Araujo -->
+    <string name="lbAyrtonAraujo">Ayrton Araujo</string>
+    <string name="lbImgAyrtonAraujo">img_ayrton_araujo</string>
+    <string name="lbTelAyrtonAraujo">(67) 3316 1647 / 3316 1648</string>
+    <string name="lbEmailAyrtonAraujo">ayrtondearaujo@camara.ms.gov.br</string>
+    <string name="lbFaceAyrtonAraujo">Ayrton do Araujo do PT</string>
+    <string name="lbUrlFaceAyrtonAraujo">https://www.facebook.com/alceubueno</string>
+    <string name="lbTwitterAyrtonAraujo"></string>
+    <string name="lbUrlTwitterAyrtonAraujo"></string>
+    <string name="lbWebsiteAyrtonAraujo"></string>
+
+    <!-- Carlao -->
+    <string name="lbCarlao">Carlão</string>
+    <string name="lbImgCarlao">img_carlao</string>
+    <string name="lbTelCarlao">(67) 3316 1555 / 3316 1556</string>
+    <string name="lbEmailCarlao">carlao@camara.ms.gov.br</string>
+    <string name="lbFaceCarlao">Vereador Carlão Borges</string>
+    <string name="lbUrlFaceCarlao">https://www.facebook.com/alceubueno</string>
+    <string name="lbTwitterCarlao">vereadorcarlao</string>
+    <string name="lbUrlTwitterCarlao"></string>
+    <string name="lbWebsiteCarlao">http://www.alceubueno.com.br/portal/</string>
+
+    <!-- Carla Stefanini -->
+    <string name="lbCarlaStefanini">Carla Stephanini</string>
+    <string name="lbImgCarlaStefanini">img_carla_stephanini</string>
+    <string name="lbTelCarlaStefanini">(67) 3316 1543 / 3316 1544</string>
+    <string name="lbEmailCarlaStefanini">carlastephanini@camara.ms.gov.br</string>
+    <string name="lbFaceCarlaStefanini">Carla Stefanini</string>
+    <string name="lbUrlFaceCarlaStefanini">https://www.facebook.com/carla.stephaninimae</string>
+    <string name="lbTwitterCarlaStefanini"></string>
+    <string name="lbUrlTwitterCarlaStefanini"></string>
+    <string name="lbWebsiteCarlaStefanini"></string>
+
+    <!-- Cazuza -->
+    <string name="lbCazuza">Cazuza</string>
+    <string name="lbImgCazuza">img_cazuza</string>
+    <string name="lbTelCazuza">(67) 3316 1644 / 3316 1645</string>
+    <string name="lbEmailCazuza">cazuza@camara.ms.gov.br</string>
+    <string name="lbFaceCazuza">Cazuza Cidade e Cazuza Sintonia Perfeita</string>
+    <string name="lbUrlFaceCazuza"></string>
+    <string name="lbTwitterCazuza"></string>
+    <string name="lbUrlTwitterCazuza"></string>
+    <string name="lbWebsiteCazuza"></string>
+
+    <!-- Chiquinho Teles -->
+    <string name="lbChiquinhoTeles">Chiquinho Telles</string>
+    <string name="lbImgChiquinhoTeles">img_chiquinho_teles</string>
+    <string name="lbTelChiquinhoTeles">(67) 3316 1561  / (67) 3316 1562</string>
+    <string name="lbEmailChiquinhoTeles">chiquinhotelles@camara.ms.gov.br</string>
+    <string name="lbFaceChiquinhoTeles">Chiquinho Telles</string>
+    <string name="lbUrlFaceChiquinhoTeles">http://facebook.com/chiquinho.telles.1</string>
+    <string name="lbTwitterChiquinhoTeles"></string>
+    <string name="lbUrlTwitterChiquinhoTeles"></string>
+    <string name="lbWebsiteChiquinhoTeles"></string>
+
+    <!-- Chocolate -->
+    <string name="lbChocolate">Chocolate</string>
+    <string name="lbImgChocolate">img_chocolate</string>
+    <string name="lbTelChocolate">(67) 3316 1564  / (67) 3316 1565</string>
+    <string name="lbEmailChocolate">chocolate@camara.ms.gov.br</string>
+    <string name="lbFaceChocolate">Airton Saraiva</string>
+    <string name="lbUrlFaceChocolate">https://www.facebook.com/chocolateojarbas</string>
+    <string name="lbTwitterChocolate"></string>
+    <string name="lbUrlTwitterChocolate"></string>
+    <string name="lbWebsiteChocolate"></string>
+
+    <!-- Coringa -->
+    <string name="lbCoringa">Coringa</string>
+    <string name="lbImgCoringa">img_coringa</string>
+    <string name="lbTelCoringa">(67) 3316 1522  / (67) 3316 1523</string>
+    <string name="lbEmailCoringa">vereadorcoringa@camara.ms.gov.br</string>
+    <string name="lbFaceCoringa">Junior Coringa Das Moreninhas</string>
+    <string name="lbUrlFaceCoringa">http://facebook.com/junior.coringadasmoreninhas</string>
+    <string name="lbTwitterCoringa"></string>
+    <string name="lbUrlTwitterCoringa"></string>
+    <string name="lbWebsiteCoringa"></string>
+
+    <!-- Delei Pinheiro -->
+    <string name="lbDeleiPinheiro">Delei Pinheiro</string>
+    <string name="lbImgDeleiPinheiro">img_delei_pinheiro</string>
+    <string name="lbTelDeleiPinheiro">(67) 3316 1515  / 3316 1607</string>
+    <string name="lbEmailDeleiPinheiro">deleipinheiro@camara.ms.gov.br</string>
+    <string name="lbFaceDeleiPinheiro">Delei Pinheiro</string>
+    <string name="lbUrlFaceDeleiPinheiro">https://www.facebook.com/deleivereador</string>
+    <string name="lbTwitterDeleiPinheiro"></string>
+    <string name="lbUrlTwitterDeleiPinheiro"></string>
+    <string name="lbWebsiteDeleiPinheiro"></string>
+
+    <!-- Dr Loester -->
+    <string name="lbDrLoester">Dr Loester</string>
+    <string name="lbImgDrLoester">img_dr_loester</string>
+    <string name="lbTelDrLoester">(67) 3316 1512  / 3316 113</string>
+    <string name="lbEmailDrLoester">drloester@camara.ms.gov.br</string>
+    <string name="lbFaceDrLoester">Loester Nunes</string>
+    <string name="lbUrlFaceDrLoester"></string>
+    <string name="lbTwitterDrLoester"></string>
+    <string name="lbUrlTwitterDrLoester"></string>
+    <string name="lbWebsiteDrLoester"></string>
+
+    <!-- Edson Shimabukuro -->
+    <string name="lbEdsonShimabukuro">Edson Shimabukuro</string>
+    <string name="lbImgEdsonShimabukuro">img_edson_shimabukuro</string>
+    <string name="lbTelEdsonShimabukuro">3316 1641 / 3316 1642</string>
+    <string name="lbEmailEdsonShimabukuro">eng.edson@camara.ms.gov.br</string>
+    <string name="lbFaceEdsonShimabukuro">Edson Kiyoshi Shimabukuro (MyBody)</string>
+    <string name="lbUrlFaceEdsonShimabukuro">https://www.facebook.com/edsonkiyoshi.shimabukuro.5</string>
+    <string name="lbTwitterEdsonShimabukuro">edsonshimabukur</string>
+    <string name="lbUrlTwitterEdsonShimabukuro">http://twitter.com/edsonshimabukur</string>
+    <string name="lbWebsiteEdsonShimabukuro"></string>
+
+    <!-- Eduardo Romero -->
+    <string name="lbEduardoRomero">Eduardo Romero</string>
+    <string name="lbImgEduardoRomero">img_eduardo_romero</string>
+    <string name="lbTelEduardoRomero">3316 1534 / 3316 1535</string>
+    <string name="lbEmailEduardoRomero">eduardoromero@camara.ms.gov.br</string>
+    <string name="lbFaceEduardoRomero">Eduardo Romero</string>
+    <string name="lbUrlFaceEduardoRomero"></string>
+    <string name="lbTwitterEduardoRomero"></string>
+    <string name="lbUrlTwitterEduardoRomero"></string>
+    <string name="lbWebsiteEduardoRomero">http://www.eduardoromero.com.br</string>
+
+    <!-- Elizeu Dionizio -->
+    <string name="lbElizeuDionizio">Elizeu Dionizio</string>
+    <string name="lbImgElizeuDionizio">img_elizeu_dionizio</string>
+    <string name="lbTelElizeuDionizio">(67) 3316 1537 / 3316 1538</string>
+    <string name="lbEmailElizeuDionizio">elizeudionizio@camara.ms.gov.br</string>
+    <string name="lbFaceElizeuDionizio">Elizeu Dionizio</string>
+    <string name="lbUrlFaceElizeuDionizio">https://www.facebook.com/dionizioelizeu</string>
+    <string name="lbTwitterElizeuDionizio">elizeudionizio</string>
+    <string name="lbUrlTwitterElizeuDionizio">https://twitter.com/elizeudionizio</string>
+    <string name="lbWebsiteElizeuDionizio"></string>
+
+    <!-- Flavio Cesar -->
+    <string name="lbFlavioCesar">Flávio Cesar</string>
+    <string name="lbImgFlavioCesar">img_flavio_cesar</string>
+    <string name="lbTelFlavioCesar">3316 1567 / 3316 1568</string>
+    <string name="lbEmailFlavioCesar">flaviocesar@camara.ms.gov.br</string>
+    <string name="lbFaceFlavioCesar">Flávio César</string>
+    <string name="lbUrlFaceFlavioCesar"></string>
+    <string name="lbTwitterFlavioCesar">FlavioCesarMS</string>
+    <string name="lbUrlTwitterFlavioCesar"></string>
+    <string name="lbWebsiteFlavioCesar">http://www.flaviocesar.com.br</string>
+
+    <!-- Gilmar da Cruz -->
+    <string name="lbGilmarDaCruz">Gilmar da Cruz</string>
+    <string name="lbImgGilmarDaCruz">img_gilmar_da_cruz</string>
+    <string name="lbTelGilmarDaCruz">3316 1638 / 3316 1539</string>
+    <string name="lbEmailGilmarDaCruz">gilmardacruz@camara.ms.gov.br</string>
+    <string name="lbFaceGilmarDaCruz">Gilmar da Cruz</string>
+    <string name="lbUrlFaceGilmarDaCruz"></string>
+    <string name="lbTwitterGilmarDaCruz"></string>
+    <string name="lbUrlTwitterGilmarDaCruz"></string>
+    <string name="lbWebsiteGilmarDaCruz"></string>
+
+    <!-- Grazielle Machado -->
+    <string name="lbGrazielleMachado">Grazielle Machado</string>
+    <string name="lbImgGrazielleMachado">img_grazielle_machado</string>
+    <string name="lbTelGrazielleMachado">3316 1552 / 3316 1553</string>
+    <string name="lbEmailGrazielleMachado">grazielle@camara.ms.gov.br</string>
+    <string name="lbFaceGrazielleMachado">Grazielle Machado</string>
+    <string name="lbUrlFaceGrazielleMachado"></string>
+    <string name="lbTwitterGrazielleMachado"></string>
+    <string name="lbUrlTwitterGrazielleMachado"></string>
+    <string name="lbWebsiteGrazielleMachado">http://www.graziellemachado.com.br</string>
+
+    <!-- Herculano Borges -->
+    <string name="lbHerculanoBorges">Herculano Borges</string>
+    <string name="lbImgHerculanoBorges">img_herculano_borges</string>
+    <string name="lbTelHerculanoBorges">3316 1540 / 3316 1541</string>
+    <string name="lbEmailHerculanoBorges">herculanoborges@camara.ms.gov.br</string>
+    <string name="lbFaceHerculanoBorges">Herculano Borges e Vereador Herculano Borges</string>
+    <string name="lbUrlFaceHerculanoBorges"></string>
+    <string name="lbTwitterHerculanoBorges"></string>
+    <string name="lbUrlTwitterHerculanoBorges"></string>
+    <string name="lbWebsiteHerculanoBorges">http://www.herculanoborges.com.br</string>
+
+    <!-- Edil Albuquerque -->
+    <string name="lbEdilAlbuquerque">Edil Albuquerque</string>
+    <string name="lbImgEdilAlbuquerque">img_edil_albuquerque</string>
+    <string name="lbTelEdilAlbuquerque">(67) 3316 1546 / 3316 1547</string>
+    <string name="lbEmailEdilAlbuquerque">edilalbuquerque@camara.ms.gov.br</string>
+    <string name="lbFaceEdilAlbuquerque">Edil Albuquerque</string>
+    <string name="lbUrlFaceEdilAlbuquerque">https://www.facebook.com/edilresolve</string>
+    <string name="lbTwitterEdilAlbuquerque">edilalbuquerque</string>
+    <string name="lbUrlTwitterEdilAlbuquerque">http://twitter.com/edilalbuquerque</string>
+    <string name="lbWebsiteEdilAlbuquerque"></string>
+
+    <!-- Juliana Zorzo -->
+    <string name="lbJulianaZorzo">Juliana Zorzo</string>
+    <string name="lbImgJulianaZorzo">img_juliana_zorzo</string>
+    <string name="lbTelJulianaZorzo">(67) 3316 1540  / (67) 3316 1541</string>
+    <string name="lbEmailJulianaZorzo"></string>
+    <string name="lbFaceJulianaZorzo">Juliana Zorzo</string>
+    <string name="lbUrlFaceJulianaZorzo">https://www.facebook.com/juliana.zorzo.3</string>
+    <string name="lbTwitterJulianaZorzo">julianazorzo</string>
+    <string name="lbUrlTwitterJulianaZorzo">http://twitter.com/julianazorzo</string>
+    <string name="lbWebsiteJulianaZorzo"></string>
+
+    <!-- Jamal -->
+    <string name="lbJamal">Jamal</string>
+    <string name="lbImgJamal">img_jamal</string>
+    <string name="lbTelJamal">(67) 3316 6666 / (67) 3316 6666</string>
+    <string name="lbEmailJamal">drjamal@camara.ms.gov.br</string>
+    <string name="lbFaceJamal">Jamal Salem</string>
+    <string name="lbUrlFaceJamal">https://www.facebook.com/drjamall</string>
+    <string name="lbTwitterJamal">vereadorjamal</string>
+    <string name="lbUrlTwitterJamal">http://twitter.com/vereadorjamal</string>
+    <string name="lbWebsiteJamal">www.drjamal.com.br</string>
+
+    <!-- Joao Rocha -->
+    <string name="lbJoaoRocha">João Rocha</string>
+    <string name="lbImgJoaoRocha">img_joao_rocha</string>
+    <string name="lbTelJoaoRocha">(67) 3316 1570  / (67) 3316 1571</string>
+    <string name="lbEmailJoaoRocha">vereadorjoaorocha@terra.com.br</string>
+    <string name="lbFaceJoaoRocha">Airton Saraiva</string>
+    <string name="lbUrlFaceJoaoRocha">http://facebook.com/ProfessorJoaoRocha</string>
+    <string name="lbTwitterJoaoRocha"></string>
+    <string name="lbUrlTwitterJoaoRocha"></string>
+    <string name="lbWebsiteJoaoRocha">www.profjoaorocha.blogspot.com.br/</string>
+
+    <!-- Luiza Ribeiro -->
+    <string name="lbLuizaRibeiro">Luiza Ribeiro</string>
+    <string name="lbImgLuizaRibeiro">img_luiza_ribeiro</string>
+    <string name="lbTelLuizaRibeiro">(67) 3316 1632  / (67) 3316 1633</string>
+    <string name="lbEmailLuizaRibeiro">luizaribeiro@camara.ms.gov.br</string>
+    <string name="lbFaceLuizaRibeiro">Luiza Ribeiro</string>
+    <string name="lbUrlFaceLuizaRibeiro"></string>
+    <string name="lbTwitterLuizaRibeiro"></string>
+    <string name="lbUrlTwitterLuizaRibeiro"></string>
+    <string name="lbWebsiteLuizaRibeiro"></string>
+
+    <!-- Magali Picarelli -->
+    <string name="lbMagaliPicarelli">Magali Picarelli</string>
+    <string name="lbImgMagaliPicarelli">img_magali_picarelli</string>
+    <string name="lbTelMagaliPicarelli">(67) 3316 1546  / (67) 3316 1547</string>
+    <string name="lbEmailMagaliPicarelli">magalipicarelli@hotmail.com</string>
+    <string name="lbFaceMagaliPicarelli">Magali M. Picarelli</string>
+    <string name="lbUrlFaceMagaliPicarelli"></string>
+    <string name="lbTwitterMagaliPicarelli"></string>
+    <string name="lbUrlTwitterMagaliPicarelli"></string>
+    <string name="lbWebsiteMagaliPicarelli">www.magalipicarelli.com.br/</string>
+
+    <!-- Mario Cesar -->
+    <string name="lbMarioCesar">Mario Cesar</string>
+    <string name="lbImgMarioCesar">img_mario_cesar</string>
+    <string name="lbTelMarioCesar">(67) 3316 1558  / (67) 3316 1559</string>
+    <string name="lbEmailMarioCesar">falecomigo.mariocesar@gmail.com</string>
+    <string name="lbFaceMarioCesar">Mario Cesar2</string>
+    <string name="lbUrlFaceMarioCesar">http://facebook.com/mcofonseca</string>
+    <string name="lbTwitterMarioCesar">mcofonseca</string>
+    <string name="lbUrlTwitterMarioCesar">http://twitter.com/mcofonseca</string>
+    <string name="lbWebsiteMarioCesar">www.mariocesar.com.br</string>
+
+    <!-- Otavio Trad -->
+    <string name="lbOtavioTrad">Otavio Trad</string>
+    <string name="lbImgOtavioTrad">img_otavio_trad</string>
+    <string name="lbTelOtavioTrad">(67) 3316 1635 / (67) 3316 1636</string>
+    <string name="lbEmailOtavioTrad">vereadorjoaorocha@terra.com.br </string>
+    <string name="lbFaceOtavioTrad">Otavio Trad</string>
+    <string name="lbUrlFaceOtavioTrad">https://www.facebook.com/otaviotrad</string>
+    <string name="lbTwitterOtavioTrad">otaviotrad70800</string>
+    <string name="lbUrlTwitterOtavioTrad">http://twitter.com/otaviotrad70800</string>
+    <string name="lbWebsiteOtavioTrad">http://www.airtonsaraiva.com.br</string>
+
+    <!-- Paulo Pedra -->
+    <string name="lbPauloPedra">Paulo Pedra</string>
+    <string name="lbImgPauloPedra">img_paulo_pedra</string>
+    <string name="lbTelPauloPedra">(67) 3316 1653 / (67) 3316 1654</string>
+    <string name="lbEmailPauloPedra">vereadorpaulopedra@camara.ms.gov.br</string>
+    <string name="lbFacePauloPedra">Vereador Paulo Pedra II</string>
+    <string name="lbUrlFacePauloPedra"></string>
+    <string name="lbTwitterPauloPedra">PauloPedra</string>
+    <string name="lbUrlTwitterPauloPedra"></string>
+    <string name="lbWebsitePauloPedra">http://www.paulopedra.com.br</string>
+
+    <!-- Paulo Siufi -->
+    <string name="lbPauloSiufi">Paulo Siufi</string>
+    <string name="lbImgPauloSiufi">img_paulo_siufi</string>
+    <string name="lbTelPauloSiufi">(67) 3316 1531  / (67) 3316 1532</string>
+    <string name="lbEmailPauloSiufi">paulosiufi@camara.ms.gov.br</string>
+    <string name="lbFacePauloSiufi">Paulo Siufi (Vereador Siufi I)</string>
+    <string name="lbUrlFacePauloSiufi">https://www.facebook.com/paulosiufiperfilI</string>
+    <string name="lbTwitterPauloSiufi">VereadorSiufi</string>
+    <string name="lbUrlTwitterPauloSiufi">https://twitter.com/VereadorSiufi</string>
+    <string name="lbWebsitePauloSiufi"></string>
+
+    <!-- Prof Rose -->
+    <string name="lbProfRose">Prof. Rose</string>
+    <string name="lbImgProfRose">img_prof_rose</string>
+    <string name="lbTelProfRose">(67) 3316 1528  / (67) 3316 1529</string>
+    <string name="lbEmailProfRose">profrose@camara.ms.gov.br</string>
+    <string name="lbFaceProfRose">Vereadora Rose Modesto</string>
+    <string name="lbUrlFaceProfRose"></string>
+    <string name="lbTwitterProfRose"></string>
+    <string name="lbUrlTwitterProfRose"></string>
+    <string name="lbWebsiteProfRose"></string>
+
+    <!-- Thais Helena -->
+    <string name="lbThaisHelena">Thais Helena</string>
+    <string name="lbImgThaisHelena">img_thais_helena</string>
+    <string name="lbTelThaisHelena">(67) 3316 1525  / (67) 3316 1526</string>
+    <string name="lbEmailThaisHelena">thaishelena@camara.ms.gov.br</string>
+    <string name="lbFaceThaisHelena">Vereadora Thais Helena</string>
+    <string name="lbUrlFaceThaisHelena"></string>
+    <string name="lbTwitterThaisHelena">thaishelenams</string>
+    <string name="lbUrlTwitterThaisHelena"></string>
+    <string name="lbWebsiteThaisHelena"></string>
+
+    <!-- Vanderlei Cabeludo -->
+    <string name="lbVanderleiCabeludo">Vanderlei Cabeludo</string>
+    <string name="lbImgVanderleiCabeludo">img_vanderlei_cabeludo</string>
+    <string name="lbTelVanderleiCabeludo">(67) 3316 1519  / (67) 3316 1520</string>
+    <string name="lbEmailVanderleiCabeludo">vanderleicabeludo@camara.ms.gov.br</string>
+    <string name="lbFaceVanderleiCabeludo">Vereador Vanderlei Cabeludo</string>
+    <string name="lbUrlFaceVanderleiCabeludo"></string>
+    <string name="lbTwitterVanderleiCabeludo"></string>
+    <string name="lbUrlTwitterVanderleiCabeludo"></string>
+    <string name="lbWebsiteVanderleiCabeludo"></string>
+
+    <!-- Zeca -->
+    <string name="lbZeca">Zeca</string>
+    <string name="lbImgZeca">img_zeca_do_pt</string>
+    <string name="lbTelZeca">(67) 3316 1549  / (67) 3316 1550</string>
+    <string name="lbEmailZeca">zecadopt@camara.ms.gov.br</string>
+    <string name="lbFaceZeca">José Orcirio dos Santos</string>
+    <string name="lbUrlFaceZeca"></string>
+    <string name="lbTwitterZeca">zecadopt</string>
+    <string name="lbUrlTwitterZeca"></string>
+    <string name="lbWebsiteZeca">http://www.zecadopt.com.br</string>
+
+    <!-- Informacoes Activity -->
+    <string name="lbTituloSobreApp">Sobre o "App Câmara Ativa"</string>
+    <string name="lbInformacoesSobreApp">Informações</string>
+    <string name="lbTexto1SobreApp">O aplicativo da Câmara Municipal de Campo Grande (MS) permite ao cidadão fazer solicitações dos principais serviços públicos municipais.</string>
+    <string name="lbTexto2SobreApp">O uso de palavras e imagens considerados impróprios poderá ocasionar no bloqueio do usuário.</string>
+    <string name="lbTexto3SobreApp">São informados abaixo os prazos máximos para execução dos serviços.</string>
+    <string name="lbTexto4SobreApp">A Câmara Municipal poderá atender em caráter de urgência, conforme a ocorrência.</string>
+</resources>
